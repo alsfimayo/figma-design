@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  body {
+    background-color: var(--quaternary-color);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    }
+      :root {
+    --primary-color: #484848;
+    --secondary-color: #8a8a8a;
+    --tertiary-color: #000000;
+    --quaternary-color: #ffffff;
+    --base-font-size: 1rem;
+    --secondary-font-size: 2.9rem;
+    --tertiary-font-size: 3rem;
+    --primary-font-family: 'poppins';
+    --secondary-font-family: 'Volkhov';
+  }
+  
+  
+  
+  .homepage {
+    margin: 2rem 8rem;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .logo {
+    font-size: var(--tertiary-font-size);
+    color: var(--primary-color);
+    font-family: var(--secondary-font-family);
+    cursor: pointer;
+  }
+  
+  .list-items {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out; /* Add smooth transition for visibility changes */
+  }
+  .list-items li a{
+    font-size: 1em;
+  }
+  
+  li a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0rem 1.5rem;
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+
+  }
+  li a:hover{
+    color: rgba(39, 26, 15, 0.3);
+    transition: all 0.3s;
+    
+    
+  }
+   .nav-btn{
+    background-color: var(--tertiary-color);
+    color: var(--quaternary-color);
+  
+    border-radius: 10px;
+    padding: 0.8rem 2rem;
+    border: none;
+    cursor: pointer;
+  }
+  .menu-btn{
+    display: none;
+  }
+  .active{
+    display: none;
+  }
+    
