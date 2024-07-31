@@ -12,19 +12,23 @@
   
 .img-section{
 
-    margin: 2rem 4rem;
-    
+    margin: 2rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78vw;
     
 }
 .images{
+    
     display: flex;
-    height: 756px;
-    align-items: center;
-    justify-content: center;
+    
+
     
 }
 .img-text{
     margin: 0rem 2.5rem;
+    
     
 }
 .h1-btn{
@@ -32,22 +36,22 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 1rem;
+    gap: .8rem;
     padding: 1rem 0rem;
 }
 .h1-btn h1{
     font-family: var(--primary-font-family);
     font-weight: 500;
     font-size: 91px;
-    letter-spacing: -4%;
-    line-height: 91px;
+    
+     line-height: 91px; 
     color:var(--primary-color) ;
 }
 .h1-btn h2{
     font-family: var(--primary-font-family);
     font-weight: 500;
-    font-size: 187px;
-    line-height: 157px;
+    font-size: 185px;
+     line-height: 157px; 
     color: var(--quaternary-color);
     -webkit-text-stroke: 2px black;
     

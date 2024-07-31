@@ -1,9 +1,9 @@
 import React from 'react'
 import './Hero.css'
-import img1 from '../../assets/img1.svg'
+import black from '../../assets/black.svg'
 import img2 from '../../assets/img2.svg'
 import img3 from '../../assets/img3.svg'
-import img4 from '../../assets/img4.svg'
+import img from '../../assets/img.svg'
 
 
 function Hero() {
@@ -11,9 +11,9 @@ function Hero() {
     <>
     <div className='img-section'>
     <div className='images'>
-    <img src={img1} alt=""  />
+    <img src={black} alt=""  height='500px' />
     <div className='img-text'>
-    <img src={img2} alt="" />
+    <img src={img2} alt=""  />
     <div className='h1-btn'>
         <h1>ULTIMATE</h1>
         <h2>SALE</h2>
@@ -23,7 +23,7 @@ function Hero() {
     <img src={img3} alt="" />
     </div>
     <div>
-<img src={img4} alt=""   />
+<img src={img} alt=""  height='500px' />
     </div>
     
     

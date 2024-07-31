@@ -1,0 +1,7 @@
+.img-logos{
+    display: flex;
+    margin: 2rem 10rem;
+    align-items: center;
+    justify-content: center;
+    width: 78vw;
+}
